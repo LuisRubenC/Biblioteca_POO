@@ -1,3 +1,32 @@
+# Menú BibliotecaApp
+
+**Descripción**
+
+**BibliotecaApp** es una aplicación sencilla escrita en Java que simula la gestión de recursos bibliográficos en una biblioteca. El programa permite interactuar con libros y revistas, y proporciona opciones como consultar recursos disponibles, prestar y devolver recursos.
+
+**Características**
+- Interfaz de texto interactiva: Menú sencillo para realizar operaciones en la biblioteca.
+- Manejo de Recursos: Libros y revistas disponibles para préstamo y devolución.
+- Gestión de Usuario: Simulación de un usuario que interactúa con los recursos bibliográficos.
+
+**Estructura del Código**
+
+El código está organizado en las siguientes clases:
+1. BibliotecaApp: Clase principal que contiene el menú interactivo.
+2. RecursoBibliografico: Clase base para representar recursos bibliográficos generales.
+3. Libro: Subclase específica que representa libros.
+4. Revista: Subclase específica que representa revistas.
+5. Usuario: Clase que gestiona los recursos prestados por el usuario.
+
+**Clases y Métodos Principales**
+
+- **RecursoBibliografico** `mostrarDetalle()`: Método para mostrar detalles de cada recurso.
+- **Libro** Hereda de `RecursoBibliografico` e incluye atributos como título, autor e ISBN.
+- **Revista** Hereda de `RecursoBibliografico` e incluye atributos como ISSN, año y número de edición.
+- **Usuario** :
+`prestarRecurso(RecursoBibliografico recurso)`: Método para que el usuario preste un recurso.
+
+`devolverRecurso(RecursoBibliografico recurso)`: Método para devolver un recurso previamente prestado.
 
 # Usuario
 
