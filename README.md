@@ -63,3 +63,5 @@ La función "mostrarDetalle" para la clase Libro funciona, como su nombre lo ind
 
 Para mostrar el estado del libro se utiliza el valor "true" para indicar que está prestado, si es "false" está disponible para préstamo.
 
+## Enlace a Microsoft Planner
+https://planner.cloud.microsoft/webui/plan/bzHV4AXKL02Ts38sYvCeAGQAC2gT/view/grid?tid=f94bf4d9-8097-4794-adf6-a5466ca28563
